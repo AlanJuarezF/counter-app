@@ -3,13 +3,13 @@ import React from 'react';
 
 
 
-const PrimeraApp = () =>{
+const PrimeraApp = ({ saludo = 'Hola Mundo' }) =>{
 
-    const saludo = 'Hola mundo Const'
+    
 
     return (
         <>
-        <h1>{saludo}</h1>
+        <h1>{ saludo }</h1>
         {/* <pre> {JSON.stringify(saludo, null, 3)} </pre> */}
         <p>Mi PrimeraApp</p>
         </>
